@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Useless RGB website</title>
+
+    <style>
+        fieldset {
+        border: none;
+        padding: 0;
+      }
+    </style>
+
+</head>
+<body style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;">
+    <center>
+
+    <div id="welcomeRGB" class="d-flex justify-content-center">
+        <h2>Welcome to the most useless RGB website (:</h2>
+    </div>
+    <br>
+    <div class="d-flex justify-content-center">
+        
+         <div >
+        <fieldset>
+            <label for="r">R</label>
+            <input type="range" min="0" max="255" id="r" step="1" value="0">
+            <output for="r" id="redOutput">0</output>
+          </fieldset>  
+          
+          <fieldset>
+            <label for="g">G</label>
+            <input type="range" min="0" max="255" id="g" step="1" value="0">
+            <output for="g" id="greenOutput">0</output>
+          </fieldset>
+          
+          <fieldset>
+            <label for="b">B</label>
+            <input type="range" min="0" max="255" id="b" step="1" value="0">
+            <output for="b" id="blueOutput">0</output>
+          </fieldset>  
+                    
+        </div>   
+</div>
+<br>
+
+<div class="d-flex justify-content-center">
+    <button id="showHex">Click it to see or hide the hex below</button>
+    <button id="showRain">Click it for magic!</button>
+</div>    
+<br> 
+
+<div id="outputHexDiv" hidden >
+    <output id="rgbHexValue">#000000</output>
+  
+</div>
+<br>
+<canvas></canvas>
+
+</center>
+
+<script src="index.js"></script>
+
+</body>
+</html>
