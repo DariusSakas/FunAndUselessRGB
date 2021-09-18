@@ -8,3 +8,4 @@ Welcome to the most useless, but still fun, RGB "website" project (:
 
 * Src of rain: https://codepen.io/yaclive/pen/EayLYO
 
+* Link to Github: https://github.com/DariusSakas/FunAndUselessRGB
